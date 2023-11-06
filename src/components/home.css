@@ -1,0 +1,30 @@
+.home-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 180px;
+	margin: 30vh 40vh;	
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 100px #add8e6 ;
+}
+
+.title{
+	color: #367588;
+	font-family: Arial, sans-serif;
+}
+
+.enroll-btn{
+	margin-top: 20px;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007BFF;
+	color: white;
+	cursor: pointer;
+}
+
+.enroll-btn:hover{
+	background-color: #0056b3
+}

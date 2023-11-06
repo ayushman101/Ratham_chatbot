@@ -1,0 +1,32 @@
+.options-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  padding: 20px;
+}
+
+
+.option-btn {
+  padding: 5px; 
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.option-button{
+	border-color: purple;
+	margin: 2px 1px;	
+	border-radius: 9px;
+  	color: black;	
+}
+
+.option-button:hover {
+  background-color: #069af6;
+}
+
+.option-button.selected {
+  background-color: #069af6;
+}
+
