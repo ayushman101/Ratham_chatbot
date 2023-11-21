@@ -92,6 +92,7 @@ const ActionProvider=({createChatBotMessage, setState,children})=>{
   const handleAge = (inputage) => {
     dispatch(setUserAge(inputage));
     console.log(inputage);
+    	  
     const message = createChatBotMessage("Thank you. In 5 seconds, bot will exit");
     setState((prev) => ({
       ...prev,
