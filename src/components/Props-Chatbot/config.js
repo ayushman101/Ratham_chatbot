@@ -6,6 +6,7 @@ import Options from './Widgets/Options'
 import Calender from './Widgets/Calender'
 import TimeSlots from './Widgets/TimeSlots'
 import AgeSelection from './Widgets/AgeSelector'
+import Countdown from './Widgets/Counter'
 
 const config= {
 	botName: "Ratham Bot",
@@ -38,6 +39,12 @@ const config= {
       			widgetName: "age", 
       			widgetFunc: (props) => <AgeSelection {...props} />,
     		},
+
+		{
+			widgetName: "counter",
+			widgetFunc: (props) => <Countdown {...props} />
+		}
+
 
 	],
 

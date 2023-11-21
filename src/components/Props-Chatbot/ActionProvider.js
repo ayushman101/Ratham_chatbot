@@ -93,15 +93,21 @@ const ActionProvider=({createChatBotMessage, setState,children})=>{
     dispatch(setUserAge(inputage));
     console.log(inputage);
     	  
-    const message = createChatBotMessage("Thank you. In 5 seconds, bot will exit");
+    var message = createChatBotMessage("Thank you. In 5 seconds, bot will exit");
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, message],
     }));
 
-    setTimeout(() => {
-      navigate("/lastpage")
-    }, 5000);
+	 message= createChatBotMessage("Please Wait!",{
+			widget: "counter",
+		})
+
+		//setState((prev)=>({
+		//	...prev,
+		//	messages:[...prev.messages,message],
+		//}));
+
   }
 
 
