@@ -99,7 +99,7 @@ const ActionProvider=({createChatBotMessage, setState,children})=>{
       messages: [...prev.messages, message],
     }));
 
-	 message= createChatBotMessage("Please Wait!",{
+	 message= createChatBotMessage("Thank you. In 5 seconds, bot will exit to last page",{
 			widget: "counter",
 		})
 
